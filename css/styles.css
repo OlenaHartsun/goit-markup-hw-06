@@ -839,3 +839,64 @@ img {
   background-color: #4d5ae5;
   margin: 0 auto;
 }
+
+@media (min-width: 768px) and (max-width: 1167) {
+  .logo {
+    margin-right: 120px;
+  }
+  .navigation-address {
+    flex-direction: column;
+    gap: 12px;
+  }
+  .navigation-address-f {
+    font-size: 12px;
+  }
+  .second-item {
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 24px;
+    justify-content: space-between;
+    align-items: stretch;
+  }
+  .second-li {
+    width: calc(50% - 12px);
+  }
+  .second-items-svg {
+    display: none;
+  }
+  .second-title {
+    font-size: 36px;
+    color: #2e2f42;
+  }
+  .second-text {
+    font-size: 16px;
+    color: #434455;
+  }
+  .third-card {
+    width: 264px;
+    height: 428px;
+  }
+  .fourth-card {
+    width: 356px;
+    height: 420px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .navigation-menu {
+    display: none;
+  }
+  .navigation-address {
+    display: none;
+  }
+  .second-item {
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .second-items-svg {
+    display: none;
+  }
+}
