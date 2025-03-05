@@ -18,9 +18,9 @@
   </head>
   <body>
     <header class="header">
-      <div class="container header">
+      <div class="container container-header">
         <nav class="navigation">
-          <a class="logo" href="./index.html"
+          <a class="logo header-logo" href="./index.html"
             >Web<span class="studio">Studio</span></a
           >
           <ul class="navigation-menu">
@@ -49,18 +49,94 @@
             </li>
           </ul>
         </address>
+        <button class="hero-button" type="button">
+          <svg class="hero-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-heroicons"></use>
+          </svg>
+        </button>
+      </div>
+
+      <div class="mobile-menu">
+        <div class="container mobile-menu-container">
+          <button class="mobile-menu-close">
+            <svg class="modal-svg" width="8" height="8">
+              <use href="./images/icons.svg#icon-btn-close"></use>
+            </svg>
+          </button>
+          <nav class="mobile-navigation">
+            <ul class="mobile-navigation-menu">
+              <li>
+                <a class="mobile-navigation-menu-first" href="./index.html"
+                  >Studio</a
+                >
+              </li>
+              <li>
+                <a class="mobile-navigation-menu-f" href="">Portfolio</a>
+              </li>
+              <li>
+                <a class="mobile-navigation-menu-f" href="">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+          <address class="mobile-navigation-address">
+            <ul class="mobile-navigation-address">
+              <li class="mobile-navigation-address-items">
+                <a
+                  class="mobile-navigation-address-f"
+                  href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="mobile-navigation-adress-items">
+                <a class="mobile-navigation-address-f" href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+            </ul>
+            <ul class="mobile-item-ul">
+              <li class="mobile-item-svg">
+                <a href="" class="mobile-item-a">
+                  <svg class="mobile-svg" width="24" height="24">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="mobile-item-svg">
+                <a href="" class="mobile-item-a">
+                  <svg class="mobile-svg" width="24" height="24">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="mobile-item-svg">
+                <a href="" class="mobile-item-a">
+                  <svg class="mobile-svg" width="24" height="24">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="mobile-item-svg">
+                <a href="" class="mobile-item-a">
+                  <svg class="mobile-svg" width="24" height="24">
+                    <use href="./images/icons.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </address>
+        </div>
       </div>
     </header>
 
     <main>
-      <section class="hero">
+      <section class="hero hidden">
         <div class="container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
           <button class="hero-button" type="button">Order Service</button>
         </div>
       </section>
 
-      <section class="second">
+      <section class="second hidden">
         <div class="container">
           <h2 class="visually-hidden">Content</h2>
           <ul class="second-item">
@@ -116,7 +192,7 @@
         </div>
       </section>
 
-      <section class="third" id="portfolio">
+      <section class="third hidden" id="portfolio">
         <div class="container">
           <h2 class="third-title">Our Team</h2>
           <ul class="third-item">
@@ -292,7 +368,7 @@
         </div>
       </section>
 
-      <section class="fourth">
+      <section class="fourth hidden">
         <div class="container">
           <h2 class="fourth-title">Our Portfolio</h2>
           <ul class="fourth-item">
@@ -421,7 +497,7 @@
       </section>
     </main>
 
-    <footer class="footer">
+    <footer class="footer hidden">
       <div class="container container-footer">
         <div class="footer-div">
           <a class="logo-footer" href="./index.html"
@@ -488,7 +564,7 @@
       </div>
     </footer>
 
-    <div class="backdrop">
+    <div class="backdrop hidden">
       <div class="modal">
         <button class="close-btn-icon" type="button">
           <svg class="modal-svg" width="8" height="8">
