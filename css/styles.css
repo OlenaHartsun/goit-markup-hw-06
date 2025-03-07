@@ -726,7 +726,7 @@ button {
   display: flex;
   flex-direction: column;
   gap: 48px;
-  max-width: 288px;
+  flex-basis: 288px;
 }
 
 .fourth-card {
@@ -773,7 +773,7 @@ button {
     flex-wrap: wrap;
     gap: 24px;
     row-gap: 72px;
-    max-width: 356px;
+    flex-basis: 356px;
   }
   .fourth-card-img {
     position: relative;
@@ -811,7 +811,7 @@ button {
     flex-wrap: wrap;
     gap: 24px;
     row-gap: 48px;
-    max-width: 360px;
+    flex-basis: 360px;
   }
   .fourth-card-img {
     position: relative;
