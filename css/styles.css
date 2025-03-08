@@ -195,9 +195,6 @@ button {
   }
   .navigation-address {
     font-style: normal;
-    display: block;
-  }
-  .navigation-adress-items {
     display: flex;
     flex-direction: column;
     gap: 12px;
@@ -495,7 +492,7 @@ button {
 /* second */
 
 .second-items-svg {
-  visibility: hidden;
+  display: none;
 }
 
 .second {
@@ -533,7 +530,7 @@ button {
   .second-item {
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 24px;
+    gap: 72px 24px;
   }
   .second-li {
     width: calc((100% - 24px) / 2);
@@ -557,7 +554,6 @@ button {
     max-width: 264px;
   }
   .second-items-svg {
-    visibility: visible;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -737,7 +733,7 @@ button {
 }
 
 .fourth-card-text {
-  visibility: hidden;
+  display: none;
 }
 
 .fourth-sub-title {
@@ -783,9 +779,6 @@ button {
     overflow: hidden;
   }
   .fourth-card-text {
-    visibility: visible;
-  }
-  .fourth-card-text {
     position: absolute;
     top: 0;
     font-size: 16px;
@@ -828,9 +821,6 @@ button {
   .fourth-card:hover {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
       0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-  }
-  .fourth-card-text {
-    visibility: visible;
   }
   .fourth-card-text {
     position: absolute;
@@ -879,6 +869,7 @@ button {
   text-transform: uppercase;
   display: inline-block;
   margin-bottom: 16px;
+  text-align: center;
 }
 
 .footer-text {
@@ -893,6 +884,7 @@ button {
 
 .studio-s {
   color: #f4f4fd;
+  text-align: center;
 }
 
 .footer-subtitle {
@@ -902,10 +894,12 @@ button {
   letter-spacing: 0.02em;
   color: #fff;
   margin-bottom: 16px;
+  text-align: center;
 }
 
 .footer-item-ul {
   display: flex;
+  justify-content: center;
   gap: 16px;
 }
 
@@ -938,6 +932,7 @@ button {
   letter-spacing: 0.02em;
   color: #fff;
   margin-top: 72px;
+  text-align: center;
 }
 
 .footer-sbscrb-form {
@@ -982,6 +977,8 @@ button {
   text-align: center;
   color: #fff;
   border: none;
+  margin-left: 77px;
+  margin-right: 78px;
 }
 
 .footer-sbscrb-icon {
@@ -1000,11 +997,15 @@ button {
   .footer-div {
     margin-right: 24px;
   }
+  .footer-subtitle {
+    text-align: left;
+  }
   .footer-text {
     max-width: 264px;
   }
   .footer-sbscrb-text {
     margin-top: 0px;
+    text-align: left;
   }
   .footer-sbscrb-form {
     flex-direction: row;
@@ -1012,6 +1013,10 @@ button {
   }
   .footer-sbscrb-input {
     width: 264px;
+  }
+  .footer-sbscrb-btn {
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 
@@ -1030,8 +1035,12 @@ button {
   .footer-div {
     margin-right: 120px;
   }
+  .footer-subtitle {
+    text-align: left;
+  }
   .footer-text {
     max-width: 264px;
+    margin-bottom: 0;
   }
   .footer-item-svg:hover {
     background-color: #31d0aa;
@@ -1045,9 +1054,14 @@ button {
   }
   .footer-sbscrb-text {
     margin-top: 0px;
+    text-align: left;
   }
   .footer-sbscrb-input {
     width: 264px;
+  }
+  .footer-sbscrb-btn {
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 
