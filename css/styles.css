@@ -867,7 +867,7 @@ button {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  display: inline-block;
+  display: block;
   margin-bottom: 16px;
   text-align: center;
 }
@@ -979,6 +979,7 @@ button {
   border: none;
   margin-left: 77px;
   margin-right: 78px;
+  margin: 0 auto;
 }
 
 .footer-sbscrb-icon {
@@ -991,11 +992,15 @@ button {
     padding-left: 108px;
   }
   .container-footer {
+    width: 768px;
     flex-direction: row;
     flex-wrap: wrap;
   }
   .footer-div {
     margin-right: 24px;
+  }
+  .logo-footer {
+    display: inline-block;
   }
   .footer-subtitle {
     text-align: left;
@@ -1029,11 +1034,15 @@ button {
     padding-top: 100px;
   }
   .container-footer {
+    width: 1158px;
     flex-direction: row;
     align-items: baseline;
   }
   .footer-div {
     margin-right: 120px;
+  }
+  .logo-footer {
+    display: inline-block;
   }
   .footer-subtitle {
     text-align: left;
